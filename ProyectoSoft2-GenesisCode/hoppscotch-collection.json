@@ -1,0 +1,1165 @@
+[
+  {
+    "name": "ConsultarTurnos",
+    "folders": [],
+    "requests": [
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/consultarTurnos/datosMesero/10546789843",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "",
+        "rawInput": false,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "Consulta de datos basicos del mesero"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/consultarTurnos/turnos",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "anio",
+            "value": 1995
+          },
+          {
+            "active": true,
+            "key": "mes",
+            "value": 1
+          }
+        ],
+        "rawParams": "{\n\t\"anio\":1995,\n\t\"mes\":1\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "Consulta de turnos por año y mes"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/consultarTurnos/mesasEnTurno/20",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "anio",
+            "value": 1995
+          },
+          {
+            "active": true,
+            "key": "mes",
+            "value": 1
+          }
+        ],
+        "rawParams": "{\n\t\"anio\":1995,\n\t\"mes\":1\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "Consulta de de datos de mesa segun el turno"
+      }
+    ]
+  },
+  {
+    "name": "GestionPromociones",
+    "folders": [],
+    "requests": [
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/platos",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "anio",
+            "value": 1995
+          },
+          {
+            "active": true,
+            "key": "mes",
+            "value": 1
+          }
+        ],
+        "rawParams": "{\n\t\"anio\":1995,\n\t\"mes\":1\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetPlatosAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/promociones",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "anio",
+            "value": 1995
+          },
+          {
+            "active": true,
+            "key": "mes",
+            "value": 1
+          }
+        ],
+        "rawParams": "{\n\t\"anio\":1995,\n\t\"mes\":1\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetPromocionesAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/plato/1000",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "anio",
+            "value": 1995
+          },
+          {
+            "active": true,
+            "key": "mes",
+            "value": 1
+          }
+        ],
+        "rawParams": "{\n\t\"anio\":1995,\n\t\"mes\":1\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetPlato"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/promocion/2000",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "anio",
+            "value": 1995
+          },
+          {
+            "active": true,
+            "key": "mes",
+            "value": 1
+          }
+        ],
+        "rawParams": "{\n\t\"anio\":1995,\n\t\"mes\":1\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetPromociones"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/platos",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "idplato",
+            "value": "1010"
+          },
+          {
+            "active": true,
+            "key": "nombre",
+            "value": "Hamburgesa"
+          },
+          {
+            "active": true,
+            "key": "valor",
+            "value": 20000
+          },
+          {
+            "active": true,
+            "key": "clasificacion",
+            "value": "comida rapida"
+          }
+        ],
+        "rawParams": "{\n    \"idplato\": \"1010\",\n    \"nombre\": \"Hamburgesa\",\n    \"valor\": 20000.0,\n    \"clasificacion\": \"comida rapida\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "SetPlatoAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/promociones",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "idpromocion",
+            "value": "2001"
+          },
+          {
+            "active": true,
+            "key": "fechaExpiracion",
+            "value": "08-01-2021"
+          },
+          {
+            "active": true,
+            "key": "descuento",
+            "value": 5000
+          },
+          {
+            "active": true,
+            "key": "fkIdplato",
+            "value": "1001"
+          }
+        ],
+        "rawParams": "{\n    \"idpromocion\": \"2001\",\n    \"fechaExpiracion\": \"08-01-2021\",\n    \"descuento\": 5000.0,\n    \"fkIdplato\": \"1001\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "SetPromocionAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/promociones",
+        "method": "PUT",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "idpromocion",
+            "value": "2000"
+          },
+          {
+            "active": true,
+            "key": "fechaExpiracion",
+            "value": "08-30-2021"
+          },
+          {
+            "active": true,
+            "key": "descuento",
+            "value": 5000
+          },
+          {
+            "active": true,
+            "key": "fkIdplato",
+            "value": "1001"
+          }
+        ],
+        "rawParams": "{\n  \"idpromocion\": \"2000\",\n  \"fechaExpiracion\": \"08-30-2021\",\n  \"descuento\": 5000,\n  \"fkIdplato\": \"1001\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "UpdatePromocion"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/promociones/2001",
+        "method": "DELETE",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "idpromocion",
+            "value": "2000"
+          },
+          {
+            "active": true,
+            "key": "fechaExpiracion",
+            "value": "08-30-2021"
+          },
+          {
+            "active": true,
+            "key": "descuento",
+            "value": 5000
+          },
+          {
+            "active": true,
+            "key": "fkIdplato",
+            "value": "1001"
+          }
+        ],
+        "rawParams": "",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "RemovePromocion"
+      }
+    ]
+  },
+  {
+    "name": "Autenticación",
+    "folders": [],
+    "requests": [
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/usuarios",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "idpromocion",
+            "value": "2000"
+          },
+          {
+            "active": true,
+            "key": "fechaExpiracion",
+            "value": "08-30-2021"
+          },
+          {
+            "active": true,
+            "key": "descuento",
+            "value": 5000
+          },
+          {
+            "active": true,
+            "key": "fkIdplato",
+            "value": "1001"
+          }
+        ],
+        "rawParams": "",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetUsuariosAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/usuario/12345",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "idpromocion",
+            "value": "2000"
+          },
+          {
+            "active": true,
+            "key": "fechaExpiracion",
+            "value": "08-30-2021"
+          },
+          {
+            "active": true,
+            "key": "descuento",
+            "value": 5000
+          },
+          {
+            "active": true,
+            "key": "fkIdplato",
+            "value": "1001"
+          }
+        ],
+        "rawParams": "",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetUsuario"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/usuarios",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "documento",
+            "value": "79797"
+          },
+          {
+            "active": true,
+            "key": "correo",
+            "value": "elbailarin@gmail.com"
+          },
+          {
+            "active": true,
+            "key": "rol",
+            "value": "mesero"
+          },
+          {
+            "active": true,
+            "key": "nombre",
+            "value": "Roberto"
+          },
+          {
+            "active": true,
+            "key": "apellido",
+            "value": "Roena"
+          }
+        ],
+        "rawParams": "{\n  \"documento\": \"79797\",\n  \"correo\": \"elbailarin@gmail.com\",\n  \"rol\": \"mesero\",\n  \"nombre\": \"Roberto\",\n  \"apellido\": \"Roena\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "SetUsuarioAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/login",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "fkdocumento",
+            "value": "12345"
+          },
+          {
+            "active": true,
+            "key": "clave",
+            "value": "keyingreso"
+          }
+        ],
+        "rawParams": "{\n  \"fkdocumento\": \"12345\",\n  \"clave\": \"keyingreso\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "LoginAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/usuarios/12345",
+        "method": "DELETE",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "fkdocumento",
+            "value": "12345"
+          },
+          {
+            "active": true,
+            "key": "clave",
+            "value": "keyingreso"
+          }
+        ],
+        "rawParams": "{\n  \"fkdocumento\": \"12345\",\n  \"clave\": \"keyingreso\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "RemoveUsuario"
+      }
+    ]
+  },
+  {
+    "name": "GestionTurnos",
+    "folders": [],
+    "requests": [
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/calendario",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "tipo",
+            "value": "Laboral"
+          },
+          {
+            "active": true,
+            "key": "fecha",
+            "value": "12-09-2021"
+          },
+          {
+            "active": true,
+            "key": "numeroSemana",
+            "value": "2"
+          },
+          {
+            "active": true,
+            "key": "seleccionTurno",
+            "value": "Agregar"
+          }
+        ],
+        "rawParams": "{\n  \"tipo\": \"Laboral\",\n  \"fecha\": \"12-09-2021\",\n  \"numeroSemana\": \"2\",\n  \"seleccionTurno\": \"Agregar\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "ParametrosInicialesCalendario"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/mesero",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "Nombre",
+            "value": "Jhonny"
+          },
+          {
+            "active": true,
+            "key": "Apellido",
+            "value": "Jostar"
+          }
+        ],
+        "rawParams": "{\n  \"Nombre\": \"Jhonny\",\n  \"Apellido\": \"Jostar\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "BuscarMesero"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/turno",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "idTurno",
+            "value": "34"
+          },
+          {
+            "active": true,
+            "key": "tipo",
+            "value": "Laboral"
+          },
+          {
+            "active": true,
+            "key": "fecha",
+            "value": "12-16-2021"
+          },
+          {
+            "active": true,
+            "key": "horaInicio",
+            "value": "18:00:00"
+          },
+          {
+            "active": true,
+            "key": "horaFin",
+            "value": "21:00:00"
+          },
+          {
+            "active": true,
+            "key": "fkIdMesero",
+            "value": "1"
+          }
+        ],
+        "rawParams": "{\n  \"idTurno\": \"34\",\n  \"tipo\": \"Laboral\",\n  \"fecha\": \"12-16-2021\",\n  \"horaInicio\": \"18:00:00\",\n  \"horaFin\": \"21:00:00\",\n  \"fkIdMesero\": \"1\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "AgregarTurnoAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/meseros",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetMeserosAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/turnos",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetTurnosAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/mesas",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetMesasAsync"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/meseros/1",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetMesero"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/mesas/1",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetMesa"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/turno/1",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetTurno"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/turnosIntercambio",
+        "method": "PUT",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "IntercambiarTurno"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/turnos/10",
+        "method": "DELETE",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "RemoveTurno"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/asignacion",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GenerarAsignacionMesas"
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/mesas",
+        "method": "PUT",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [],
+        "rawParams": "{}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "ActualizarMesas"
+      }
+    ]
+  },
+  {
+    "name": "AdministrarMeseros",
+    "folders": [],
+    "requests": [
+      {
+        "url": "null5000",
+        "path": "/api/meseros/get/Mia Khalifa",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "nombre",
+            "value": "Cristian David"
+          },
+          {
+            "active": true,
+            "key": "apellido",
+            "value": "Cruz Barrera"
+          },
+          {
+            "active": true,
+            "key": "tipoDocumento",
+            "value": "Cédula"
+          },
+          {
+            "active": true,
+            "key": "documento",
+            "value": "12345323"
+          },
+          {
+            "active": true,
+            "key": "nivelAcademico",
+            "value": "Pregrado"
+          },
+          {
+            "active": true,
+            "key": "emailEmpresa",
+            "value": "cristian.cruz@saboreo.com"
+          },
+          {
+            "active": true,
+            "key": "emailPersonal",
+            "value": "cristian@personal.com"
+          },
+          {
+            "active": true,
+            "key": "direccion",
+            "value": "Calle de mis huevos"
+          },
+          {
+            "active": true,
+            "key": "barrio",
+            "value": "asd"
+          },
+          {
+            "active": true,
+            "key": "ciudad",
+            "value": "Supía"
+          },
+          {
+            "active": true,
+            "key": "telefonoFijo",
+            "value": "1233"
+          },
+          {
+            "active": true,
+            "key": "telefonoCelular",
+            "value": "3345432"
+          },
+          {
+            "active": true,
+            "key": "estado",
+            "value": true
+          },
+          {
+            "active": true,
+            "key": "estudia",
+            "value": true
+          },
+          {
+            "active": true,
+            "key": "genero",
+            "value": "Masculino"
+          },
+          {
+            "active": true,
+            "key": "fechaNacimiento",
+            "value": "04/09/1998"
+          }
+        ],
+        "rawParams": "{\n    \"nombre\": \"Cristian David\",\n    \"apellido\": \"Cruz Barrera\",\n    \"tipoDocumento\": \"Cédula\",\n    \"documento\": \"12345323\",\n    \"nivelAcademico\": \"Pregrado\",\n    \"emailEmpresa\": \"cristian.cruz@saboreo.com\",\n    \"emailPersonal\": \"cristian@personal.com\",\n    \"direccion\": \"Calle de mis huevos\",\n    \"barrio\": \"asd\",\n    \"ciudad\": \"Supía\",\n    \"telefonoFijo\": \"1233\",\n    \"telefonoCelular\": \"3345432\",\n    \"estado\": true,\n    \"estudia\": true,\n    \"genero\": \"Masculino\",\n    \"fechaNacimiento\": \"04/09/1998\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "GetPublicacionesAsync"
+      },
+      {
+        "url": "5000",
+        "path": "/api/meseros/post",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "nombre",
+            "value": "Cristian David"
+          },
+          {
+            "active": true,
+            "key": "apellido",
+            "value": "Cruz Barrera"
+          },
+          {
+            "active": true,
+            "key": "tipoDocumento",
+            "value": "Cédula"
+          },
+          {
+            "active": true,
+            "key": "documento",
+            "value": "12345323"
+          },
+          {
+            "active": true,
+            "key": "nivelAcademico",
+            "value": "Pregrado"
+          },
+          {
+            "active": true,
+            "key": "emailEmpresa",
+            "value": "cristian.cruz@saboreo.com"
+          },
+          {
+            "active": true,
+            "key": "emailPersonal",
+            "value": "cristian@personal.com"
+          },
+          {
+            "active": true,
+            "key": "direccion",
+            "value": "Calle de mis huevos"
+          },
+          {
+            "active": true,
+            "key": "barrio",
+            "value": "asd"
+          },
+          {
+            "active": true,
+            "key": "ciudad",
+            "value": "Supía"
+          },
+          {
+            "active": true,
+            "key": "telefonoFijo",
+            "value": "1233"
+          },
+          {
+            "active": true,
+            "key": "telefonoCelular",
+            "value": "3345432"
+          },
+          {
+            "active": true,
+            "key": "estado",
+            "value": true
+          },
+          {
+            "active": true,
+            "key": "estudia",
+            "value": true
+          },
+          {
+            "active": true,
+            "key": "genero",
+            "value": "Masculino"
+          },
+          {
+            "active": true,
+            "key": "fechaNacimiento",
+            "value": "04/09/1998"
+          }
+        ],
+        "rawParams": "{\n    \"nombre\": \"Cristian David\",\n    \"apellido\": \"Cruz Barrera\",\n    \"tipoDocumento\": \"Cédula\",\n    \"documento\": \"12345323\",\n    \"nivelAcademico\": \"Pregrado\",\n    \"emailEmpresa\": \"cristian.cruz@saboreo.com\",\n    \"emailPersonal\": \"cristian@personal.com\",\n    \"direccion\": \"Calle de mis huevos\",\n    \"barrio\": \"asd\",\n    \"ciudad\": \"Supía\",\n    \"telefonoFijo\": \"1233\",\n    \"telefonoCelular\": \"3345432\",\n    \"estado\": true,\n    \"estudia\": true,\n    \"genero\": \"Masculino\",\n    \"fechaNacimiento\": \"04/09/1998\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "SetPublicacionAsync"
+      }
+    ]
+  },
+  {
+    "name": "GenerarInforme",
+    "folders": [],
+    "requests": [
+      {
+        "url": "http://localhost:5000",
+        "path": "/api/informe",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [],
+        "params": [
+          {
+            "key": "fechaInicial",
+            "value": "2017-05-18T02:36:57",
+            "active": true
+          },
+          {
+            "key": "fechaFinal",
+            "value": "2022-05-18T02:36:57",
+            "active": true
+          }
+        ],
+        "bodyParams": [
+          {
+            "active": true,
+            "key": "fkdocumento",
+            "value": "12345"
+          },
+          {
+            "active": true,
+            "key": "clave",
+            "value": "keyingreso"
+          }
+        ],
+        "rawParams": "{\n  \"fkdocumento\": \"12345\",\n  \"clave\": \"keyingreso\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "curl",
+        "preRequestScript": "// pw.env.set('variable', 'value');",
+        "testScript": "// pw.expect('variable').toBe('value');",
+        "name": "RemoveUsuario"
+      }
+    ]
+  }
+]

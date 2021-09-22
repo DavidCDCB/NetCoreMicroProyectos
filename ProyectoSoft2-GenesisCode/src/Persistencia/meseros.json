@@ -1,0 +1,58 @@
+{
+  "meseros": [
+    {
+      "nombre": "Mia",
+      "apellido": "Khalifa",
+      "tipoDocumento": "Cédula",
+      "documento": "123456",
+      "nivelAcademico": "Bachiller",
+      "emailEmpresa": "mia.khalifa@saboreo.com",
+      "emailPersonal": "mia.khalifa@personal.com",
+      "direccion": "pornhub.com",
+      "barrio": "MisCojones33",
+      "ciudad": "Manizales",
+      "telefonoFijo": "123",
+      "telefonoCelular": "321",
+      "estado": true,
+      "estudia": false,
+      "genero": "Femenino",
+      "fechaNacimiento": "22/07/1996"
+    },
+    {
+      "nombre": "Cristian David",
+      "apellido": "Cruz Barrera",
+      "tipoDocumento": "Cédula",
+      "documento": "443211",
+      "nivelAcademico": "Pregrado",
+      "emailEmpresa": "cristian.cruz@saboreo.com",
+      "emailPersonal": "cristian@personal.com",
+      "direccion": "Calle 1",
+      "barrio": "No C",
+      "ciudad": "Supía",
+      "telefonoFijo": "642",
+      "telefonoCelular": "5323123",
+      "estado": true,
+      "estudia": true,
+      "genero": "Masculino",
+      "fechaNacimiento": "04/10/1997"
+    },
+    {
+      "nombre": "Test nombre actualizado",
+      "apellido": "Test apellido",
+      "tipoDocumento": "Cédula",
+      "documento": "977232",
+      "nivelAcademico": "Postdoctorado",
+      "emailEmpresa": "test.test@saboreo.com",
+      "emailPersonal": "test@personal.com",
+      "direccion": "Dirección test",
+      "barrio": "Barrio test",
+      "ciudad": "Ciudad test",
+      "telefonoFijo": "987182312",
+      "telefonoCelular": "3123172232",
+      "estado": false,
+      "estudia": false,
+      "genero": "Femenino",
+      "fechaNacimiento": "10/10/2010"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+**/bin
+**/obj
+**/*.cache
+**/*.dll
+.vscode/
+script_git.py

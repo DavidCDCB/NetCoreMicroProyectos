@@ -1,0 +1,19 @@
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\bin\Debug\protosueldo.exe
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\bin\Debug\protosueldo.pdb
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\obj\Debug\ResolveAssemblyReference.cache
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\obj\Debug\protosueldo.exe
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\obj\Debug\protosueldo.pdb
+H:\[{PROGRAMACION}]\C#\protosueldo\protosueldo\obj\Debug\protosueldo.exe
+H:\[{PROGRAMACION}]\C#\protosueldo\protosueldo\obj\Debug\protosueldo.pdb
+G:\[{PROGRAMACION}]\C#\protosueldo\protosueldo\obj\Debug\protosueldo.exe
+G:\[{PROGRAMACION}]\C#\protosueldo\protosueldo\obj\Debug\protosueldo.pdb
+G:\[{PROGRAMACION}]\C#\protosueldo\protosueldo\bin\Debug\protosueldo.exe
+G:\[{PROGRAMACION}]\C#\protosueldo\protosueldo\bin\Debug\protosueldo.pdb
+G:\[{PROGRAMACION}]\C#\protosueldo\protosueldo\obj\Debug\ResolveAssemblyReference.cache
+I:\[{PROGRAMACION}]\C#\protosueldo\protosueldo\obj\Debug\protosueldo.exe
+I:\[{PROGRAMACION}]\C#\protosueldo\protosueldo\obj\Debug\protosueldo.pdb
+G:\[-{PROGRAMACION}-]\{C#}\protosueldo\protosueldo\obj\Debug\protosueldo.exe
+G:\[-{PROGRAMACION}-]\{C#}\protosueldo\protosueldo\obj\Debug\protosueldo.pdb
+G:\[-{PROGRAMACION}-]\{C#}\protosueldo\protosueldo\bin\Debug\protosueldo.exe
+G:\[-{PROGRAMACION}-]\{C#}\protosueldo\protosueldo\bin\Debug\protosueldo.pdb
+G:\[-{PROGRAMACION}-]\{C#}\protosueldo\protosueldo\obj\Debug\ResolveAssemblyReference.cache

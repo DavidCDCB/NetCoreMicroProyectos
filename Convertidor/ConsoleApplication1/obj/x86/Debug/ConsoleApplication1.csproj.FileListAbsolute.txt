@@ -1,0 +1,10 @@
+C:\Users\CRISTIAN\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\CRISTIAN\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\CRISTIAN\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\CRISTIAN\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\CRISTIAN\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+I:\[-{PROGRAMACION}-]\{C#}\Convertidor\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+I:\[-{PROGRAMACION}-]\{C#}\Convertidor\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+I:\[-{PROGRAMACION}-]\{C#}\Convertidor\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+I:\[-{PROGRAMACION}-]\{C#}\Convertidor\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+I:\[-{PROGRAMACION}-]\{C#}\Convertidor\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache

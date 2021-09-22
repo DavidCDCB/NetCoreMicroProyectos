@@ -1,0 +1,13 @@
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/bin/Debug/netcoreapp3.1/script
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/bin/Debug/netcoreapp3.1/script.deps.json
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/bin/Debug/netcoreapp3.1/script.runtimeconfig.json
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/bin/Debug/netcoreapp3.1/script.runtimeconfig.dev.json
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/bin/Debug/netcoreapp3.1/script.dll
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/bin/Debug/netcoreapp3.1/script.pdb
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/obj/Debug/netcoreapp3.1/script.csprojAssemblyReference.cache
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/obj/Debug/netcoreapp3.1/script.AssemblyInfoInputs.cache
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/obj/Debug/netcoreapp3.1/script.AssemblyInfo.cs
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/obj/Debug/netcoreapp3.1/script.csproj.CoreCompileInputs.cache
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/obj/Debug/netcoreapp3.1/script.dll
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/obj/Debug/netcoreapp3.1/script.pdb
+/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/script/obj/Debug/netcoreapp3.1/script.genruntimeconfig.cache

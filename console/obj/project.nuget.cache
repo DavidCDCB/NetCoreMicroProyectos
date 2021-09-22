@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9rzwQZz8k+Msb8TU2scCeRzgiiQDJDk5vZ1ixSsFknW5jHooIGfO3SV6xMvPa26r+J5D0nUtbnZSHqk1vqKAEg==",
+  "success": true,
+  "projectFilePath": "/media/david-pc/00166D92166D8A0C/BackupCDCB/Algoritmos/protoNet/console/protoNet.csproj",
+  "expectedPackageFiles": [
+    "/home/david-pc/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/david-pc/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/david-pc/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.13/microsoft.netcore.app.host.linux-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

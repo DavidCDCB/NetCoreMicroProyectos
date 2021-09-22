@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="protosueldo">
+</Property><Property Name="Archivo de la solución" Value="I:\[{PROGRAMACION}]\C#\protosueldo\protosueldo.sln">
+</Property><Property Name="Archivo de opciones de usuario" Value="I:\[{PROGRAMACION}]\C#\protosueldo\protosueldo.suo">
+</Property><Property Name="Date" Value="domingo, 20 de octubre de 2013">
+</Property><Property Name="Time" Value="15:17 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="protosueldo.sln" Description="La copia I:\[{PROGRAMACION}]\C#\protosueldo\Backup\protosueldo.sln del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="" Source="protosueldo.suo" Description="La copia I:\[{PROGRAMACION}]\C#\protosueldo\Backup\protosueldo.suo del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="protosueldo" Source="protosueldo\protosueldo.csproj" Description="Se realizó correctamente la copia de seguridad del archivo de proyecto I:\[{PROGRAMACION}]\C#\protosueldo\Backup\protosueldo\protosueldo.csproj">
+</Event><Event ErrorLevel="0" Project="protosueldo" Source="protosueldo\protosueldo.csproj.user" Description="La copia de seguridad I:\[{PROGRAMACION}]\C#\protosueldo\Backup\protosueldo\protosueldo.csproj.user del archivo se ha creado correctamente">
+</Event><Event ErrorLevel="0" Project="protosueldo" Source="protosueldo\Program.cs" Description="Se realizó correctamente la copia de seguridad del archivo I:\[{PROGRAMACION}]\C#\protosueldo\Backup\protosueldo\Program.cs">
+</Event><Event ErrorLevel="0" Project="protosueldo" Source="protosueldo\Properties\AssemblyInfo.cs" Description="Se realizó correctamente la copia de seguridad del archivo I:\[{PROGRAMACION}]\C#\protosueldo\Backup\protosueldo\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="protosueldo" Source="protosueldo\protosueldo.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="protosueldo" Source="protosueldo\protosueldo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="protosueldo.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="protosueldo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="protosueldo" Source="protosueldo\protosueldo.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>

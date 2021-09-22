@@ -1,0 +1,5 @@
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\bin\Release\protosueldo.exe
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\bin\Release\protosueldo.pdb
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\obj\Release\ResolveAssemblyReference.cache
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\obj\Release\protosueldo.exe
+E:\ARCHIVOS CRISTIAN\FICHEROS\PROGRAMACION\C#\protosueldo\protosueldo\obj\Release\protosueldo.pdb

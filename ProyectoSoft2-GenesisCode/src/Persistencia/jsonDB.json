@@ -1,0 +1,443 @@
+{
+	"finanza": [
+		{
+			"id": 1001,
+			"tipo": "Egreso",
+			"descripcion": "insumos",
+			"valor": 1000.0,
+			"fecha": "2010-01-18T16:31:37.94"
+		},
+		{
+			"id": 1002,
+			"tipo": "Egreso",
+			"descripcion": "insumos",
+			"valor": 10000.0,
+			"fecha": "2019-01-18T16:31:37.94"
+		},
+		{
+			"id": 1004,
+			"tipo": "Egreso",
+			"descripcion": "insumos",
+			"valor": 10000.0,
+			"fecha": "2020-02-18T16:31:37.94"
+		},
+		{
+			"id": 1005,
+			"tipo": "Egreso",
+			"descripcion": "insumos",
+			"valor": 10000.0,
+			"fecha": "2021-02-18T16:31:37.94"
+		},
+		{
+			"id": 2001,
+			"tipo": "Ingreso",
+			"descripcion": "insumos",
+			"valor": 10000.0,
+			"fecha": "2010-02-18T16:31:37.94"
+		},
+		{
+			"id": 2002,
+			"tipo": "Ingreso",
+			"descripcion": "insumos",
+			"valor": 10000.0,
+			"fecha": "2016-02-18T16:31:37.94"
+		},
+		{
+			"id": 2003,
+			"tipo": "Ingreso",
+			"descripcion": "insumos",
+			"valor": 10000.0,
+			"fecha": "2019-02-18T16:31:37.94"
+		},
+		{
+			"id": 2004,
+			"tipo": "Ingreso",
+			"descripcion": "insumos",
+			"valor": 10000.0,
+			"fecha": "2022-02-18T16:31:37.94"
+		}
+	],
+	"cliente": [
+		{
+			"nombre": "Maximo",
+			"apellido": "Lindsell",
+			"identificacion": "820-37-5442"
+		},
+		{
+			"nombre": "Fiona",
+			"apellido": "Doddridge",
+			"identificacion": "711-55-4896"
+		},
+		{
+			"nombre": "Dana",
+			"apellido": "McGrudder",
+			"identificacion": "119-21-4223"
+		},
+		{
+			"nombre": "Minerva",
+			"apellido": "Boise",
+			"identificacion": "606-37-7238"
+		}
+	],
+	"venta": [
+		{
+			"fecha": "2021-01-10T19:41:19",
+			"tipo": "Domicilio",
+			"precio": 63.06,
+			"cliente": "820-37-5442",
+			"platos": [
+				"1000",
+				"1009",
+				"1006",
+				"1005"
+			]
+		},
+		{
+			"fecha": "2021-01-13T06:36:04",
+			"tipo": "",
+			"precio": 75.88,
+			"cliente": "820-37-5442",
+			"platos": [
+				"1000",
+				"1002",
+				"1004",
+				"1005"
+			]
+		},
+		{
+			"fecha": "2018-06-17T21:30:27",
+			"tipo": "",
+			"precio": 34.44,
+			"cliente": "711-55-4896",
+			"platos": [
+				"1000",
+				"1001",
+				"1002",
+				"1003"
+			]
+		},
+		{
+			"fecha": "2019-05-04T03:01:14",
+			"tipo": "Domicilio",
+			"precio": 63.06,
+			"cliente": "711-55-4896",
+			"platos": [
+				"1006",
+				"1005"
+			]
+		},
+		{
+			"fecha": "2019-06-24T17:16:48",
+			"tipo": "Domicilio",
+			"precio": 45.82,
+			"cliente": "606-37-7238",
+			"platos": [
+				"1000",
+				"1009",
+				"1006"
+			]
+		},
+		{
+			"fecha": "2019-11-07T02:20:39",
+			"tipo": "",
+			"precio": 90.39,
+			"cliente": "606-37-7238",
+			"platos": [
+				"1000",
+				"1002",
+				"1004",
+				"1008"
+			]
+		}
+	],
+	"usuario": [
+		{
+			"documento": "12345",
+			"correo": "chicoserio23@gmail.com",
+			"rol": "administrador",
+			"nombre": "Richie",
+			"apellido": "Ray"
+		},
+		{
+			"documento": "56789",
+			"correo": "elcantante@gmail.com",
+			"rol": "domicilio",
+			"nombre": "Hector",
+			"apellido": "Lavoe"
+		},
+		{
+			"documento": "21212",
+			"correo": "elmalo@gmail.com",
+			"rol": "mesero",
+			"nombre": "Willie",
+			"apellido": "Colón"
+		},
+		{
+			"documento": "12312",
+			"correo": "elpoeta@gmail.com",
+			"rol": "chef",
+			"nombre": "Ruben",
+			"apellido": "Blades"
+		},
+		{
+			"documento": "45464",
+			"correo": "elchevere@gmail.com",
+			"rol": "cliente",
+			"nombre": "Cheo",
+			"apellido": "Feliciano"
+		},
+		{
+			"documento": "98765",
+			"correo": "elfaraon@gmail.com",
+			"rol": "domicilio",
+			"nombre": "Oscar",
+			"apellido": "D'Leon"
+		},
+		{
+			"documento": "98768",
+			"correo": "laguarachera@gmail.com",
+			"rol": "administrador",
+			"nombre": "Celia",
+			"apellido": "Cruz"
+		}
+	],
+	"plato": [
+		{
+			"idplato": "1000",
+			"nombre": "Bandeja paisa",
+			"valor": 23500.0,
+			"clasificacion": "comida tradicional"
+		},
+		{
+			"idplato": "1001",
+			"nombre": "Ajiaco",
+			"valor": 19700.0,
+			"clasificacion": "comida tradicional"
+		},
+		{
+			"idplato": "1002",
+			"nombre": "Churrasco",
+			"valor": 26000.0,
+			"clasificacion": "comida rapida"
+		},
+		{
+			"idplato": "1003",
+			"nombre": "Sushi",
+			"valor": 25600.0,
+			"clasificacion": "comida oriental"
+		},
+		{
+			"idplato": "1004",
+			"nombre": "Chop suey",
+			"valor": 29000.0,
+			"clasificacion": "comida oriental"
+		},
+		{
+			"idplato": "1005",
+			"nombre": "Sancocho",
+			"valor": 17000.0,
+			"clasificacion": "comida tradicional"
+		},
+		{
+			"idplato": "1006",
+			"nombre": "Mojarra",
+			"valor": 21500.0,
+			"clasificacion": "comida del mar"
+		},
+		{
+			"idplato": "1007",
+			"nombre": "Cazuela de mariscos",
+			"valor": 32000.0,
+			"clasificacion": "comida del mar"
+		},
+		{
+			"idplato": "1008",
+			"nombre": "Stromboli",
+			"valor": 17000.0,
+			"clasificacion": "comida rapida"
+		},
+		{
+			"idplato": "1009",
+			"nombre": "Banana split",
+			"valor": 15000.0,
+			"clasificacion": "snacks"
+		},
+		{
+			"idplato": "1010",
+			"nombre": "Hamburgesa",
+			"valor": 20000.0,
+			"clasificacion": "comida rapida"
+		}
+	],
+	"promocion": [
+		{
+			"idpromocion": "2000",
+			"fechaExpiracion": "08-30-2021",
+			"descuento": 8000.0,
+			"fkIdplato": "1001"
+		}
+	],
+	"log": [
+		{
+			"fkdocumento": "12345",
+			"clave": "a2V5aW5ncmVzbw=="
+		},
+		{
+			"fkdocumento": "56789",
+			"clave": "bWljbGF2ZTEyMw=="
+		},
+		{
+			"fkdocumento": "21212",
+			"clave": "aWRlbnRpZmljYWNpb24="
+		},
+		{
+			"fkdocumento": "12312",
+			"clave": "bWljb250cmFzZcOxYQ=="
+		},
+		{
+			"fkdocumento": "45464",
+			"clave": "ZWxwYXNzd29yZA=="
+		},
+		{
+			"fkdocumento": "98765",
+			"clave": "YXVudGVudGljYWNpb24="
+		},
+		{
+			"fkdocumento": "98768",
+			"clave": "Y3JlZGVuY2lhbDEyMw=="
+		}
+	],
+	"mesero": [
+		{
+			"nombre": "Jhonny",
+			"apellido": "Jostar",
+			"tipoDocumento": "Cedula",
+			"documento": "10546789843",
+			"nivelAcademico": "Bachiller",
+			"emailEmpresa": "jhonny.123@saboreo.com",
+			"emailPersonal": "jojo7@gmail.com",
+			"direccion": "cra 4 34-56",
+			"barrio": "La stell ball run",
+			"ciudad": "Morioh",
+			"telefonoFijo": "8561832",
+			"telefonoCelular": "3225674389",
+			"estado": true,
+			"estudia": true,
+			"genero": "Masculino",
+			"fechaNacimiento": "12/09/2000"
+		},
+		{
+			"nombre": "Gyro",
+			"apellido": "Zappeli Cesar",
+			"tipoDocumento": "Cedula",
+			"documento": "10546789811",
+			"nivelAcademico": "Universitario",
+			"emailEmpresa": "gyro.123@saboreo.com",
+			"emailPersonal": "zeppeli7@gmail.com",
+			"direccion": "cra 5 34-56",
+			"barrio": "La stell ball run",
+			"ciudad": "Roma",
+			"telefonoFijo": "8561834",
+			"telefonoCelular": "3125656389",
+			"estado": false,
+			"estudia": true,
+			"genero": "Masculino",
+			"fechaNacimiento": "10/09/1999"
+		},
+		{
+			"nombre": "Cristian David",
+			"apellido": "Cruz Barrera",
+			"tipoDocumento": "Cédula",
+			"documento": "12345323",
+			"nivelAcademico": "Pregrado",
+			"emailEmpresa": "cristian.cruz@saboreo.com",
+			"emailPersonal": "cristian@personal.com",
+			"direccion": "Calle de mis huevos",
+			"barrio": "asd",
+			"ciudad": "Supía",
+			"telefonoFijo": "1233",
+			"telefonoCelular": "3345432",
+			"estado": false,
+			"estudia": true,
+			"genero": "Masculino",
+			"fechaNacimiento": "04/09/1998"
+		},
+		{
+			"nombre": "Mia",
+			"apellido": "Khalifa",
+			"tipoDocumento": "Cédula",
+			"documento": "123456",
+			"nivelAcademico": "Ex-Pornstar",
+			"emailEmpresa": "mia.khalifa@saboreo.com",
+			"emailPersonal": "mia.khalifa@personal.com",
+			"direccion": "pornhub.com",
+			"barrio": "algunLugar",
+			"ciudad": "Manizales",
+			"telefonoFijo": "123",
+			"telefonoCelular": "321",
+			"estado": true,
+			"estudia": false,
+			"genero": "Femenino",
+			"fechaNacimiento": "07/22/1996"
+		}
+	],
+	"turno": [
+		{
+			"idTurno": "22",
+			"tipo": "Laboral",
+			"fecha": "12-09-2021",
+			"horaInicio": "18:00:00",
+			"horaFin": "20:00:00",
+			"fkIdMesero": "10546789843"
+		},
+		{
+			"idTurno": "23",
+			"tipo": "Laboral",
+			"fecha": "12-09-2021",
+			"horaInicio": "08:00:00",
+			"horaFin": "10:00:00",
+			"fkIdMesero": "10546789843"
+		},
+		{
+			"idTurno": "24",
+			"tipo": "Laboral",
+			"fecha": "12-09-2021",
+			"horaInicio": "12:00:00",
+			"horaFin": "14:00:00",
+			"fkIdMesero": "10546789843"
+		},
+		{
+			"idTurno": "25",
+			"tipo": "Laboral",
+			"fecha": "12-10-2021",
+			"horaInicio": "12:00:00",
+			"horaFin": "14:00:00",
+			"fkIdMesero": "10546789843"
+		}
+	],
+	"mesa": [
+		{
+			"idMesa": "100",
+			"estado": true,
+			"capacidad": 5,
+			"ubicacion": "",
+			"fkIdTurno": [
+				22
+			]
+		},
+		{
+			"idMesa": "200",
+			"estado": true,
+			"capacidad": 5,
+			"ubicacion": "",
+			"fkIdTurno": []
+		},
+		{
+			"idMesa": "300",
+			"estado": true,
+			"capacidad": 5,
+			"ubicacion": "",
+			"fkIdTurno": []
+		}
+	]
+}
